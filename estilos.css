@@ -1,0 +1,67 @@
+body{
+    font-family: 'Georgia';
+    margin: 0;
+    position: relative;
+    min-height: 100vh;
+}
+
+a{
+    text-decoration: none;
+    color: #fafafa;
+}
+
+header{
+    display: flex;
+    min-height: 70px;
+    background-color: #000000;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{ 
+    height: 50px;
+    margin-right: 10px;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color: gray;
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+
+    nav{
+        padding: 10px 0px;
+    }
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+}
+.pie-pagina .grupo-2{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
